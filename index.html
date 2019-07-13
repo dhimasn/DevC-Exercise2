@@ -1,11 +1,155 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
-    <title>Exercise 2</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>JavaScript Development</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-    <center>
-        <h1>Kalkulator</h1>
-    </center>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Team Section -->
+    <section>
+	
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" align="center">
+                      <h4>Program Kakulator</h4>
+					  <script language="JavaScript" type="text/javascript">
+						<!--
+						function hitung(){
+						var myForm = document.form1;
+						var x=eval(myForm.x.value);
+						var y=eval(myForm.y.value);
+						var pil= myForm.opt.value;
+						if (pil == "tambah") {
+							var z = x + y;
+						}else if (pil == "kurang"){
+							var z = x - y;
+						}else if (pil == "kali"){
+							var z = x * y;
+						}else if (pil == "bagi"){
+							var z = x / y;
+						}
+							 myForm.hasil.value = z;
+							 myForm.x.value = "";
+							 myForm.y.value = "";
+						}
+						function resetForm(){document.form1.reset();}
+						-->
+					  </script>
+					<div align="center">
+						<form name="form1" action="#">
+						<table width="24%" height="60%" border="1" align="center">
+							<tr>
+								<td>Bilangan 1 = </td>
+								<td><input type="int" name="x" /></td>
+							</tr>
+							<br>
+							<tr>
+								<td>Bilangan 2 = </td>
+								<td><input type="text" name="y" /></td>
+							</tr>
+							<br>
+							<tr>
+								<td colspan="2" align="center">
+									<select name="opt">
+									 <option value="tambah"> + (tambah)</option>
+									 <option value="kurang"> - (kurang)</option>
+									 <option value="kali"> * (kali)</option>
+									 <option value="bagi"> / (bagi)</option>
+									</select>
+								</td>
+							</tr>
+							<br>
+							<tr>
+								<td>Hasil</td> 
+								<td><input type="text" name="hasil" disabled="true" /></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center">
+									<input type="button" value="HITUNG" onClick="hitung()" />
+									<input type="button" value="CLEAR" onClick="resetForm()" />
+								</td>
+							</tr>
+						</table>
+						</form>
+					</div>
+				</div>        
+			</div>
+		</div>
+    </section>
+	
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p align="center">Dhimas N.|&copy; 2016</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="assets/js/agency.js"></script>
+
 </body>
+
 </html>
+
